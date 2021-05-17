@@ -1,0 +1,163 @@
+:root {
+  --primary-color: #3a6351;
+  --accent-color: #393232;
+  --button-color: #e48257;
+  --text-color: #f2edd7;
+}
+/* Global Edits */
+*, *::before, *::after{box-sizing: border-box;}
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  background-color: var(--primary-color) !important;
+  font-family: 'Oswald', serif;
+}
+
+/* Nav Bar  */
+
+nav {
+  width: 80%;
+  margin: auto;
+  min-height: 10vh;
+  background-color: var(--primary-color);
+  box-shadow: none;
+}
+#logo {
+  color: var(--text-color);
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.25rem;
+}
+
+#nav-mobile a {
+  color: var(--text-color);
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Landing */
+.main-content {
+  min-height: 70vh;
+  margin: 0px 8rem;
+  
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 190px;
+}
+
+/* login page */
+
+#first_name{
+  padding: 38px 0px 0px 2px;
+}
+
+#last_name{
+  padding: 38px 0px 0px 2px;
+}
+
+#password{
+  padding: 31px 0px 0px 0px;
+}
+
+#email{
+  padding: 31px 0px 0px 0px;
+}
+
+#first-paragraph{
+  text-indent: 4%;
+  /* max-width: 90rem; */
+  text-align-last: center;
+}
+
+.second-content{
+  display: flex;
+  padding: 40px;
+  text-align-last: center;
+}
+
+.landingText h1 {
+  font-family: 'Oswald', serif;
+  font-size: 3rem;
+  text-align: center;
+  margin: auto;
+}
+
+.landing-btn {
+  padding: 0.5rem 1rem;
+  background: var(--button-color);
+  border: none;
+  color: var(--text-color);
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: auto;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+#landing-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+/* space in span tag */
+
+span {
+  color: var(--button-color);
+  display: block;
+  margin: 0px 1rem;
+}
+
+#login-btn {
+  background-color: var(--button-color);
+}
+/* Color Hierarchy in Text for Section */
+span {
+  color: var(--button-color);
+}
+
+/* Login Page */
+.login-container {
+  background-color: var(--text-color);
+  display: flex;
+  padding-top: 0;
+}
+
+.login-form-container {
+  padding: 0 4rem;
+  justify-content: center;
+}
+
+.login-page-text {
+  color: var(--accent-color);
+  text-transform: uppercase;
+  font-family: 'Oswald', serif;
+}
+
+.btn {
+  background-color: var(--button-color) !important;
+}
+
+/* about */
+.image {
+  height: 30%;
+  width: 80%;
+  background-image: url(/images/grocery-photo.jpg);
+}
+
+.contact-title{
+  font-size: 0rem;
+}
